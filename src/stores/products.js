@@ -125,11 +125,5 @@ export const productsStore = defineStore('products', {
         }
       ]
     }
-  },
-  getters: {
-    // automatically infers the return type as a number
-    getBrands(state) {
-      return state.brands
-    },
-  },
+  }
 })
